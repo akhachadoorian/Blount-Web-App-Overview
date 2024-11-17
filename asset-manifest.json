@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Blount-Web-App-Overview/static/css/main.f855e6bc.css",
+    "main.js": "/Blount-Web-App-Overview/static/js/main.f68fe00f.js",
+    "static/js/453.ed3810f9.chunk.js": "/Blount-Web-App-Overview/static/js/453.ed3810f9.chunk.js",
+    "static/media/logo.svg": "/Blount-Web-App-Overview/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Blount-Web-App-Overview/index.html",
+    "main.f855e6bc.css.map": "/Blount-Web-App-Overview/static/css/main.f855e6bc.css.map",
+    "main.f68fe00f.js.map": "/Blount-Web-App-Overview/static/js/main.f68fe00f.js.map",
+    "453.ed3810f9.chunk.js.map": "/Blount-Web-App-Overview/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f68fe00f.js"
+  ]
+}
