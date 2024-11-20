@@ -34,7 +34,8 @@ function TechStack() {
                 <div className="content">
                     <h2>Back End</h2>
                     <div className="multiple-tsb">
-                        {backEndTech.map((t, index) => (
+
+                        {frontEndTech.map((t, index) => (
                             <TechStackBlock 
                                 iconName={t.iconName}
                                 techName={t.techName}

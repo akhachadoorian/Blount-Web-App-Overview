@@ -36,10 +36,30 @@ export const frontEndTech = [
     },
 ];
 
-export const backEndTech = {
+export const backEndTech = [
     {
-        iconName: '',
-        techName: '',
-        techType: '',
+        iconName: 'TreeStructure',
+        techName: 'Payload CMS',
+        techType: 'Headless CMS',
     },
-}
+    {
+        iconName: 'FileJsx',
+        techName: 'Node.js',
+        techType: 'Framework',
+    },
+    {
+        iconName: 'CodeSimple',
+        techName: 'CORS ',
+        techType: 'Library',
+    },
+    {
+        iconName: 'FileTs',
+        techName: 'Typescript',
+        techType: 'Language',
+    },
+    {
+        iconName: 'Database',
+        techName: 'MongoDB',
+        techType: 'SQL Database',
+    },
+];
