@@ -7,6 +7,7 @@ import badgeLogo from "../images/BadgeLogo.svg"
 import Tables from "../components/Tables";
 import SmallIconBlock from "../components/SmallIconBlock";
 import HeaderWithText from "../components/HeaderWithText";
+import SpacerLine from "../components/SpacerLine";
 
 
 
@@ -41,7 +42,7 @@ function Overview() {
 
             <section id="high-level-overview">
                 <div className="horizontal-line"></div>
-                <div className="content">
+                <div className="content" style={{padding: "200px 0px 100px 60px"}}>
                     <h2>High-level Project Overview</h2>
 
                     <div className="multiple-sib">
@@ -90,7 +91,92 @@ function Overview() {
                 
             </section>
 
+            <SpacerLine 
+                backgroundColor={"var(--lightBlue)"}
+                spacerColor={"var(--offWhite)"}
+            />
 
+            <section id="key-features">
+                <div className="horizontal-line"></div>
+                <div className="content">
+                    <h2>Key Features & Structure</h2>
+
+                    <HeaderWithText 
+                        header={"Reusable Components: "}
+                        text={'To streamline development and enhance consistency, we designed reusable "blocks." These blocks support features that can be modified by the admin and replicated across various sections. For example, a profile block used for alumni can also be adapted for clubs or even Blount pet profiles.'}
+                    />
+
+                    <HeaderWithText 
+                        header={"Content Management System (CMS): "}
+                        text={"The web app's admin-facing interface is managed through a CMS, enabling the admin to handle and update the client-facing aspects of the application without needing technical expertise."}
+                    />
+
+                    <HeaderWithText 
+                        header={"Separate Views:"}
+                        text={"The code structure aligns with this organization of views, necessitating two separate servers—one for each view. When logged in to the administrative API, the admin can change various aspects of the web app using the customized Payload CMS. The number of settings the admin user can affect and see depends on the account type. The user view consists of the actual web app. The code structure matches this view organization and, as a result, requires two servers, one for each view."}
+                    />
+                </div>
+            </section>
+
+            <SpacerLine 
+                backgroundColor={"var(--lightBlue)"}
+                spacerColor={"var(--offWhite)"}
+            />
+
+            <section id="user-security">
+                <div className="horizontal-line"></div>
+                <div className="content">
+                    <h2>User Access & Security</h2>
+
+                    <p>Access to the Blount Web App is exclusive to Blount students. Given time constraints, we implemented a manual system for profile creation, where the admin sets up user profiles directly. In future iterations, an automated registration process could improve efficiency.</p>
+
+                    <h4>User Access & Security</h4>
+
+                    <div class="multiple-sib">
+                        <SmallIconBlock 
+                            text={"Student"}
+                            iconName={"ChalkboardTeacher"}
+                            iconSide="left"
+                        />
+                        <SmallIconBlock 
+                            text={"Alumni"}
+                            iconName={"Student"}
+                            iconSide="left"
+                        />
+
+                        <SmallIconBlock 
+                            text={"Admin"}
+                            iconName={"User"}
+                            iconSide="left"
+                            style="outline"
+                        />
+                        <SmallIconBlock 
+                            text={"Faculty"}
+                            iconName={"Users"}
+                            iconSide="left"
+                            style="outline"
+                        />
+                        <SmallIconBlock 
+                            text={"Club"}
+                            iconName={"UsersFour"}
+                            iconSide="left"
+                            style="outline"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <SpacerLine 
+                backgroundColor={"var(--lightBlue)"}
+                spacerColor={"var(--offWhite)"}
+            />
+
+            <section id="video">
+                <div className="horizontal-line"></div>
+                <div className="content" >
+                    <h2>Video</h2>
+                </div>
+            </section>
         </div>
     )
 }

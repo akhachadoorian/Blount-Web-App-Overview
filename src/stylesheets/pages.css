@@ -46,12 +46,12 @@ TITLE SECTION
 HIGH LEVEL OVERVIEW SECTION
 ==============================
 */
-#high-level-overview {
+#high-level-overview, #key-features, #user-security, #video {
     .horizontal-line {
         background-color: var(--offWhite);
     }
 
-    h2 {
+    h2, h4 {
       color: var(--offWhite);  
     }
 
@@ -104,5 +104,24 @@ SITEMAP PAGE
     
     .horizontal-line {
         background-color: var(--offWhite);
+    }
+}
+
+/*
+============================================================
+TECH STACK PAGE
+============================================================
+*/
+.tech-stack {
+    h1 {
+        color: var(--darkBlue); 
+    }
+
+    h2 {
+        color: var(--mediumBlue);
+    }
+
+    .horizontal-line {
+        background-color: var(--mediumBlue);
     }
 }

@@ -129,6 +129,7 @@ GLOBAL STUFF
 .horizontal-line {
     width: 3px;
     background-color: var(--lightBlue);
+    flex-shrink: 0;
 }
 
 .info {
@@ -141,11 +142,13 @@ GLOBAL STUFF
 
 .content {
     flex-grow: 1;
-    padding: 200px 0px 200px 60px;
+    padding: 100px 0px 100px 60px;
     
     display: flex;
     flex-direction: column;
     gap: 60px;
+
+    
 }
 
 section {
@@ -153,6 +156,18 @@ section {
     
     display: flex;
     gap: 30px;
+
+    &:last-of-type {
+        .content {
+            padding: 100px 0px 200px 60px;
+        }
+    }
+
+    &:first-of-type {
+        .content {
+            padding: 200px 0px 100px 60px;
+        }
+    }
 }
 
 .multiple-sib {
@@ -177,8 +192,13 @@ section {
 
 .multiple-tsb {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px;
+    gap: 60px;
+
+    .tech-stack-block {
+        flex: 1 1 40%;
+    }
 }
 
 .block-and-text {
@@ -201,6 +221,12 @@ section {
         }
     }
 }
+
+/* .spacer-line {
+    height: 3px;
+    background-color: var(--offWhite);
+    margin: 40px 0;
+} */
 
 /*
 ==============================
