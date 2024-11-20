@@ -1,0 +1,35 @@
+/*
+==============================
+TABLES
+==============================
+*/
+.tables {
+    padding: 60px 0;
+
+    h3, h5 {
+        padding: 25px 0;
+        margin-bottom: 0;
+        border-bottom: 2px solid var(--offWhite);
+
+        color: var(--offWhite);
+    }
+
+    .table-item {
+        padding: 25px 0;
+        border-bottom: 2px solid #EEF4ED3D;
+
+        display: flex;
+        gap: 40px;
+        align-items: center;
+
+        h4, p {
+            color: var(--offWhite); 
+            margin-bottom: 0;
+        }
+
+        h4 {
+            flex: 0 0 360px;
+        }
+    }
+}
+

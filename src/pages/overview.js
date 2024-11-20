@@ -1,12 +1,17 @@
 import React from "react";
 
+import { designTable, webAppTable } from "./info/tableInfo";
+
+
 import badgeLogo from "../images/BadgeLogo.svg"
+import Tables from "../components/Tables";
+
 
 
 function Overview() {
 
     return (
-        <div>
+        <div className="overview">
             <section id="title">
                 <div className="horizontal-line"></div>
                 <div className="info">
@@ -34,9 +39,18 @@ function Overview() {
 
             <section id="high-level-overview">
                 <div className="horizontal-line"></div>
-                <div className="info">
+                <div className="content">
                     <h2>High-level Project Overview</h2>
+                    <Tables 
+                        title={designTable.title}
+                        content={designTable.content}
+                    />
+                    <Tables 
+                        title={webAppTable.title}
+                        content={webAppTable.content}
+                    />
                 </div>
+                
             </section>
 
 

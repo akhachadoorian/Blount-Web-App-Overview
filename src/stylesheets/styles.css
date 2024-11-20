@@ -128,6 +128,16 @@ GLOBAL STUFF
     padding: 200px 60px;
 }
 
+.content {
+    padding: 200px 0px 200px 60px;  
+}
+
+section {
+    padding: 0 60px;
+    
+    display: flex;
+    gap: 30px;
+}
 
 /*
 ==============================
@@ -144,10 +154,13 @@ nav {
     border: 3px solid var(--offWhite);
     transition: all ease-in-out 300ms;
 
+    position: relative;
+    margin-bottom: -30px;
+
     .nav-menu {
         display: flex;
-    justify-content: space-between;
-    gap: 20px;
+        justify-content: space-between;
+        gap: 20px;
     }
 
     a {
@@ -184,35 +197,5 @@ nav {
     }
 }
 
-/*
-==============================
-TITLE SECTION
-==============================
-*/
-#title {
-    /* ============================== */
-    /* TEXT COLORS */
-    h1 {color: var(--mediumBlue);}
-    h4 {color: var(--darkBlue);}
-    /* ============================== */
 
-    margin: 0 60px;
 
-    display: flex;
-    gap: 30px;
-
-    .text {
-        flex: 0 2 55%;
-
-        .names {
-            display: flex;
-            gap: 15px;
-
-            width: fit-content;
-        }
-    }
-
-    img {
-        flex: 1;
-    }
-}

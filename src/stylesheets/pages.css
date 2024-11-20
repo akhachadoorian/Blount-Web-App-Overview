@@ -1,0 +1,75 @@
+/*
+============================================================
+OVERVIEW PAGE
+============================================================
+*/
+
+/*
+==============================
+TITLE SECTION
+==============================
+*/
+#title {
+    /* ============================== */
+    /* TEXT COLORS */
+    h1 {color: var(--mediumBlue);}
+    h4 {color: var(--darkBlue);}
+    /* ============================== */
+
+    margin: 0 60px;
+
+    display: flex;
+    gap: 30px;
+
+    .text {
+        flex: 0 2 55%;
+
+        .names {
+            display: flex;
+            gap: 15px;
+
+            width: fit-content;
+        }
+    }
+
+    img {
+        flex: 1;
+    }
+}
+
+/*
+==============================
+HIGH LEVEL OVERVIEW SECTION
+==============================
+*/
+#high-level-overview {
+    .horizontal-line {
+        background-color: var(--offWhite);
+    }
+
+    h2 {
+      color: var(--offWhite);  
+    }
+
+    background-color: var(--lightBlue);
+}
+
+/*
+============================================================
+PROBLEMS AND SOLUTIONS PAGE
+============================================================
+*/
+.problems-solutions {
+    background-color: var(--lightBlue);
+}
+
+/*
+==============================
+WORD PRESS SECTION
+==============================
+*/
+#wordpress{
+    .horizontal-line {
+        background-color: var(--offWhite);
+    }
+}
