@@ -65,6 +65,18 @@ PROBLEMS AND SOLUTIONS PAGE
 */
 .problems-solutions {
     background-color: var(--lightBlue);
+
+    h1 {
+        color: var(--offWhite);
+    }
+    
+    h5, svg, p {
+        color: var(--darkestBlue)
+    }
+
+    .horizontal-line {
+        background-color: var(--offWhite);
+    }
 }
 
 /*
@@ -72,11 +84,11 @@ PROBLEMS AND SOLUTIONS PAGE
 WORD PRESS SECTION
 ==============================
 */
-#wordpress, #laravel, #code-ignite {
+/* #problems-faced, #wordpress, #laravel, #code-ignite {
     .horizontal-line {
         background-color: var(--offWhite);
     }
-}
+} */
 
 /*
 ============================================================

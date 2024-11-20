@@ -169,6 +169,39 @@ section {
     }
 }
 
+.multiple-hwt {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.multiple-tsb {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.block-and-text {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+
+    .large-icon-block {
+        flex: 1 0 423px;
+    }
+
+    .text {
+        flex: 1 1 60%;
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            margin-bottom: 15px;
+        }
+    }
+}
+
 /*
 ==============================
 NAVIGATION

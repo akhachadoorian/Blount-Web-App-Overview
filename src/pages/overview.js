@@ -6,6 +6,7 @@ import { designTable, webAppTable } from "./info/tableInfo";
 import badgeLogo from "../images/BadgeLogo.svg"
 import Tables from "../components/Tables";
 import SmallIconBlock from "../components/SmallIconBlock";
+import HeaderWithText from "../components/HeaderWithText";
 
 
 
@@ -42,6 +43,7 @@ function Overview() {
                 <div className="horizontal-line"></div>
                 <div className="content">
                     <h2>High-level Project Overview</h2>
+
                     <div className="multiple-sib">
                         <SmallIconBlock 
                             text={"Web App"}
@@ -62,7 +64,20 @@ function Overview() {
                             iconSide="left"
                         />
                     </div>
+
                     <p>The Blount Web App is designed to serve the Blount Scholars Program at the University of Alabama, providing a dynamic, interactive platform for Blount students, alumni, and community members. Its primary goal is to foster community engagement, offering a space for students to interact, connect with alumni, or simply take a study break in an environment tailored to both work and leisure. The web application needs to be modular in all aspects to allow for future additions.</p>
+                    
+                    <div className="multiple-hwt">
+                        <HeaderWithText 
+                            header={"Administrative Customization:"}
+                            text={"The web app enables a non-technical admin to easily customize certain features and maintain the site. This is a very important feature, so we are dedicating some extra time to find the perfect framework and potentially the best CMS to use."}
+                        />
+                        <HeaderWithText 
+                            header={"Fun and Engagement:"}
+                            text={"Unlike standard university websites, this platform is intended to be both practical and enjoyable, catering to academic and social needs."}
+                        />
+                    </div>
+
                     <Tables 
                         title={designTable.title}
                         content={designTable.content}

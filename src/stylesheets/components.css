@@ -63,3 +63,120 @@ SMALL ICON BLOCK
         margin-bottom: 0;
     }
 }
+
+/*
+==============================
+HEADER WITH TEXT BLOCK
+==============================
+*/
+.header-w-text {
+    border-radius: 20px;
+    border: 4px solid var(--darkestBlue);
+    background-color: var(--offWhite);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    h5 {
+        color: var(--darkestBlue);
+    }
+
+    p {
+        color: var(--mediumBlue);
+    }
+}
+
+/*
+==============================
+TECH STACK BLOCK
+==============================
+*/
+.tech-stack-block {
+    border-radius: 20px;
+    border: 4px solid var(--mediumBlue);
+    background-color: var(--offWhite);
+
+    padding: 30px;
+    color: var(--mediumBlue);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .tech-info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .tech-name {
+            font-family: Ubuntu;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+
+        .tech-type {
+            font-family: Ubuntu;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
+
+/*
+==============================
+LARGE ICON BLOCK
+==============================
+*/
+.large-icon-block {
+    color: var(--darkBlue);
+    background-color: var(--offWhite);
+    border: 4px solid var(--darkBlue);
+    border-radius: 20px;
+    padding: 30px;
+
+    .head {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        text-align: center;
+
+        svg {
+            flex: 0 0 auto;
+        }
+    }
+}
+
+/*
+==============================
+CODE BLOCK
+==============================
+*/
+.code-block {
+    padding-left: 30px;
+
+    .code-block-inner {
+        padding: 30px;
+        background: rgba(141, 169, 196, 0.22);
+        width: fit-content;
+
+        p {
+            color: var(--mediumBlue);
+            font-family: Ubuntu;
+            font-size: 22px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2.2px;
+        }
+    }
+
+}
