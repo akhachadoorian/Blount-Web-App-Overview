@@ -14,6 +14,7 @@ import ProblemsSolutions from './pages/problemsSolutions'
 import RunProject from './pages/runProject'
 
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/problems-and-solutions" element={<ProblemsSolutions />} />
           <Route path="/run-project" element={<RunProject />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

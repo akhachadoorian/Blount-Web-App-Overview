@@ -1,5 +1,5 @@
 import React from "react";
-import { wordpressTable } from "./info/tableInfo";
+import { wordpressTable, laravelTable, codeigniteTable } from "./info/tableInfo";
 import Tables from "../components/Tables";
 
 function ProblemsSolutions() {
@@ -14,6 +14,28 @@ function ProblemsSolutions() {
                         numSection={2}
                         subtitles={wordpressTable.subtitles}
                         content={wordpressTable.content}
+                    />
+                </div>
+            </section>
+            <section id="laravel">
+                <div className="horizontal-line"></div>
+                <div className="content">
+                    <Tables 
+                        title={laravelTable.title}
+                        numSection={2}
+                        subtitles={laravelTable.subtitles}
+                        content={laravelTable.content}
+                    />
+                    </div>
+            </section>
+            <section id="code-ignite">
+                <div className="horizontal-line"></div>
+                <div className="content">
+                    <Tables 
+                        title={codeigniteTable.title}
+                        numSection={2}
+                        subtitles={codeigniteTable.subtitles}
+                        content={codeigniteTable.content}
                     />
                 </div>
             </section>

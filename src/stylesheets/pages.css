@@ -68,7 +68,24 @@ PROBLEMS AND SOLUTIONS PAGE
 WORD PRESS SECTION
 ==============================
 */
-#wordpress{
+#wordpress, #laravel, #code-ignite {
+    .horizontal-line {
+        background-color: var(--offWhite);
+    }
+}
+
+/*
+============================================================
+SITEMAP PAGE
+============================================================
+*/
+#admin {
+    background-color: var(--lightBlue);
+
+    h2 {
+        color: var(--offWhite);
+    }
+    
     .horizontal-line {
         background-color: var(--offWhite);
     }
