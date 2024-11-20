@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Blount-Web-App-Overview/static/css/main.6a4fba6b.css",
-    "main.js": "/Blount-Web-App-Overview/static/js/main.d166129c.js",
+    "main.css": "/Blount-Web-App-Overview/static/css/main.5b53dc6b.css",
+    "main.js": "/Blount-Web-App-Overview/static/js/main.e8b45b40.js",
     "static/js/453.ed3810f9.chunk.js": "/Blount-Web-App-Overview/static/js/453.ed3810f9.chunk.js",
     "static/media/BadgeLogo.svg": "/Blount-Web-App-Overview/static/media/BadgeLogo.9b6d86bb58a1dba2b6271898b4820ce4.svg",
     "index.html": "/Blount-Web-App-Overview/index.html",
-    "main.6a4fba6b.css.map": "/Blount-Web-App-Overview/static/css/main.6a4fba6b.css.map",
-    "main.d166129c.js.map": "/Blount-Web-App-Overview/static/js/main.d166129c.js.map",
+    "main.5b53dc6b.css.map": "/Blount-Web-App-Overview/static/css/main.5b53dc6b.css.map",
+    "main.e8b45b40.js.map": "/Blount-Web-App-Overview/static/js/main.e8b45b40.js.map",
     "453.ed3810f9.chunk.js.map": "/Blount-Web-App-Overview/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a4fba6b.css",
-    "static/js/main.d166129c.js"
+    "static/css/main.5b53dc6b.css",
+    "static/js/main.e8b45b40.js"
   ]
 }
