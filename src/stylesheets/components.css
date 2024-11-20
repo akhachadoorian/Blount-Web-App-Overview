@@ -33,3 +33,33 @@ TABLES
     }
 }
 
+/*
+==============================
+SMALL ICON BLOCK
+==============================
+*/
+.small-icon-block {
+    padding: 20px 30px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    &.fill {
+        border: 3px solid var(--offWhite);
+        background-color: var(--darkBlue);
+        color: var(--offWhite);
+    }
+
+    &.outline {
+        border: 3px solid var(--darkBlue);
+        background-color: var(--offWhite);
+        color: var(--darkBlue);
+    }
+
+    h6 {
+        margin-bottom: 0;
+    }
+}

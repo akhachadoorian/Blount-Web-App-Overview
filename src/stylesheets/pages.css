@@ -3,7 +3,11 @@
 OVERVIEW PAGE
 ============================================================
 */
-
+.overview {
+    p {
+        color: var(--darkestBlue)
+    }
+}
 /*
 ==============================
 TITLE SECTION
@@ -16,7 +20,7 @@ TITLE SECTION
     h4 {color: var(--darkBlue);}
     /* ============================== */
 
-    margin: 0 60px;
+    /* margin: 0 60px; */
 
     display: flex;
     gap: 30px;

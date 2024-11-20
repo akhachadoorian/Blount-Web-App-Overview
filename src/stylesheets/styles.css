@@ -141,7 +141,11 @@ GLOBAL STUFF
 
 .content {
     flex-grow: 1;
-    padding: 200px 0px 200px 60px;  
+    padding: 200px 0px 200px 60px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 
 section {
@@ -149,6 +153,20 @@ section {
     
     display: flex;
     gap: 30px;
+}
+
+.multiple-sib {
+    display: flex;
+    justify-content: space-between;
+    gap: 66px;
+
+    & > .small-icon-block {
+        flex: 1;
+    }
+
+    @media all and (max-width: 800px) {
+        flex-direction: column;
+    }
 }
 
 /*
