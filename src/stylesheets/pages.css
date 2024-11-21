@@ -172,6 +172,26 @@ WORD PRESS SECTION
 SITEMAP PAGE
 ============================================================
 */
+#users {
+    background-color: var(--lightBlue);
+
+    h1 {
+        color: var(--offWhite);
+    }
+    h2 {
+        color: var(--offWhite);
+    }
+    p {
+        color: var(--darkestBlue);
+    }
+    .horizontal-line {
+        background-color: var(--offWhite);
+    }
+    img {
+        width: 75vw;
+    }
+}
+
 #admin {
     background-color: var(--lightBlue);
 
@@ -184,6 +204,127 @@ SITEMAP PAGE
     }
 }
 
+/*
+============================================================
+DESIGN PAGE
+============================================================
+*/
+#site-branding{
+    h1 {
+        color: var(--darkBlue);
+        font-family: Ubuntu;
+        font-size: 88px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 28.16px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        color: var(--darkestBlue);
+        font-family: Ubuntu;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 23.04px;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        color: var(--darkestBlue);
+        font-family: Ubuntu;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 9.6px;
+        text-transform: capitalize;
+    }
+
+    .container {
+        display: flex;
+        padding: 0px 20px;
+        align-items: center;
+        gap: 87px;
+        align-self: stretch;
+        margin-top: -15%;
+    }
+
+    .container img {
+        display: flex;
+        width: 240px;
+        height: 263px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container p {
+        color: var(--Colors-medium-blue, #1E5BA1);
+        /* Paragraph */
+        font-family: Ubuntu;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 30.8px */
+        margin-top: 10%;
+    }
+}
+
+#blue-line {
+    .container{
+        display: flex;
+        width: 1167px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .line {
+        width: 80vw;
+        border-top: 3px solid var(--darkestBlue);
+        margin: 20px 0;
+    }
+}
+
+#bento-box {
+    h2 {
+        font-family: Ubuntu;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 23.04px;
+        text-transform: uppercase;
+        color: var(--darkestBlue)
+
+    }
+
+
+    h4 {
+        font-family: Ubuntu;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 9.6px;
+        text-transform: capitalize;
+        color: var(--darkBlue)
+    }
+
+    p {
+        font-family: Ubuntu;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 30.8px */
+        color: var(--darkBlue)
+    }
+    
+}
 /*
 ============================================================
 TECH STACK PAGE
