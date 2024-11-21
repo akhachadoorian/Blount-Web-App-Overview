@@ -64,123 +64,76 @@ HIGH LEVEL OVERVIEW SECTION
 PROBLEMS AND SOLUTIONS PAGE
 ============================================================
 */
+
+
+/* ProblemsSolutions Section */
 .problems-solutions {
     background-color: var(--lightBlue);
-
+ 
+ 
     h1 {
         color: var(--offWhite);
     }
-
+ 
+ 
     h5, svg, p {
         color: var(--darkestBlue);
     }
-
+ 
+ 
     .horizontal-line {
         background-color: var(--offWhite);
     }
-}
-
-/* Block and Text Alignment for Problems Faced Section */
-.block-and-text {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-bottom: 40px;
-}
-
-.block-and-text:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-.large-icon-block {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: var(--offWhite);
-    border: 2px solid var(--mediumBlue);
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.large-icon-block h5 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--darkBlue);
-    margin-top: 10px;
-}
-
-.large-icon-block p {
-    font-size: 1rem;
+ }
+ 
+ 
+   .problems-solutions p {
     color: var(--darkestBlue);
-    margin-top: 5px;
-}
-
-.status {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-
-.text {
-    flex: 2;
-}
-/* Transition Section */
-#transition {
-    margin-top: 40px;
-    padding: 20px 40px; /* Horizontal padding to balance the alignment */
-    background-color: var(--lightBlue);
-    color: var(--darkestBlue);
-    display: flex; /* Flex container for alignment consistency */
-    flex-direction: column; /* Stack title, text, and grid vertically */
-}
-
-#transition h2 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    color: var(--offWhite);
+    line-height: 1.6;
     margin-bottom: 20px;
-    text-align: left; /* Left-align the title */
-    margin-left: 40px; /* Align with content */
-}
-
-#transition p {
-    font-size: 1.2rem;
-    color: var(--darkBlue);
-    margin-bottom: 40px;
-    text-align: left; /* Left-align the text */
-    margin-left: 40px; /* Align with title */
-}
-
-#transition .grid-container {
+  }
+   #transition {
+    padding: 40px 20px;
+  }
+  #transition .content {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 20px; /* Add spacing between elements */
+    text-align: left; /* Ensure left alignment */
+ }
+ 
+ 
+ #transition h2 {
+    margin-bottom: 20px; /* Space between the title and paragraph */
+ }
+ 
+ 
+ #transition p {
+    margin-bottom: 20px; /* Space between the paragraph and grid */
+ }
+ 
+ 
+ #transition .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns for blocks */
-    gap: 20px;
-    justify-content: start; /* Align blocks to the start */
-    margin-left: 40px; /* Match alignment with text */
-    margin-top: 20px;
-}
-
-#transition-block {
-    background-color: var(--offWhite);
-    border: 2px solid var(--mediumBlue);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: left; /* Align text inside blocks to the left */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 300px; /* Limit width for better alignment */
-    display: flex; /* Enable flex container */
-    flex-direction: column; /* Stack title and content vertically */
-    justify-content: flex-start; /* Align content to the top */
-    align-items: flex-start; /* Align content to the left */
-}
-
-
-
+    grid-template-columns: repeat(2, 1fr); /* Two columns for the blocks */
+    gap: 20px; /* Add spacing between the blocks */
+ }
+   #framework-recommendation {
+    padding: 40px 20px;
+    text-align: left; /* Center-align the section */
+ }
+ #framework-recommendation .content {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 20px; /* Add spacing between the title and HeaderWithText */
+    text-align: left; /* Ensure everything aligns to the left */
+ }
+  #framework-recommendation h2 {
+    margin-bottom: 20px; /* Space below the header */
+  }
+ 
+ 
+ 
 /*
 
 
