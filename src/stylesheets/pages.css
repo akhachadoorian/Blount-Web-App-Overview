@@ -92,51 +92,70 @@ PROBLEMS AND SOLUTIONS PAGE
     line-height: 1.6;
     margin-bottom: 20px;
   }
-   #transition {
-    padding: 40px 20px;
-  }
+
   #transition .content {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    gap: 20px; /* Add spacing between elements */
-    text-align: left; /* Ensure left alignment */
+    flex-direction: column; 
+    gap: 20px; 
+    text-align: left; 
  }
- 
- 
+
  #transition h2 {
-    margin-bottom: 20px; /* Space between the title and paragraph */
+    margin-bottom: 20px;
  }
- 
  
  #transition p {
-    margin-bottom: 20px; /* Space between the paragraph and grid */
+    margin-bottom: 20px; 
  }
- 
  
  #transition .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns for the blocks */
-    gap: 20px; /* Add spacing between the blocks */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: stretch;
  }
-   #framework-recommendation {
-    padding: 40px 20px;
-    text-align: left; /* Center-align the section */
- }
+
+ #transition .transition-block {
+    display: flex;
+    flex-direction: column;
+}
+
+#new-frameworks .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#new-frameworks h2 {
+    margin-bottom: 20px;
+}
+
+#new-frameworks p {
+    margin-bottom: 20px; 
+}
+
+#new-frameworks .frameworks-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-auto-rows: auto; 
+    gap: 20px; 
+    justify-content: start; 
+}
+
+#new-frameworks .frameworks-grid > :last-child {
+    grid-column: span 2; 
+}
+
  #framework-recommendation .content {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    gap: 20px; /* Add spacing between the title and HeaderWithText */
-    text-align: left; /* Ensure everything aligns to the left */
+    flex-direction: column; 
+    gap: 20px; 
+    text-align: left;
  }
   #framework-recommendation h2 {
-    margin-bottom: 20px; /* Space below the header */
+    margin-bottom: 20px;
   }
- 
- 
- 
 /*
-
-
 /*
 ==============================
 WORD PRESS SECTION

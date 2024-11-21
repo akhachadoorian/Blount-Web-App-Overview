@@ -107,7 +107,7 @@ function ProblemsSolutions() {
                    <div className="transition-block">
                        <HeaderWithText
                            header="Front End:"
-                           text="Since React is framework-agnostic, it can remain largely unchanged, calling the new PHP backend for API services."
+                           text="React is framework-agnostic, so it can be mostly unchanged, calling the new PHP for API services."
                        />
                    </div>
                    <div className="transition-block">
@@ -119,6 +119,42 @@ function ProblemsSolutions() {
                </div>
                </div>
            </section>
+
+           {/* New Frameworks Section */}
+<section id="new-frameworks">
+    <div className="horizontal-line"></div>
+    <div className="content">
+        <h2>New Frameworks</h2>
+        <p>
+            For transitioning the Blount Web App Project to a PHP/MySQL-compatible framework 
+            suitable for the eTech hosting platform, here are three viable options we have found:
+        </p>
+        <div className="frameworks-grid">
+            {/* First Row: Two Blocks */}
+            <LargeIconBlock
+                iconName={"TreeStructure"}
+                header={"WordPress"}
+                text={"A powerful open-source CMS built with PHP and MySQL, that enables users to create, customize, and manage a variety of websites."}
+                subtext="A powerful open-source CMS built with PHP and MySQL, that enables users to create, customize, and manage a variety of websites."
+            />
+            <LargeIconBlock
+                iconName={"Database"}
+                header={"Laravel"}
+                text={"A modern, powerful PHP framework that supports Model-View-Controller (MVC) architecture. It has robust support for database management, including MySQL."}
+                subtext="A modern, powerful PHP framework that supports Model-View-Controller (MVC) architecture. It has robust support for database management, including MySQL."
+            />
+
+            {/* Second Row: Single Block */}
+            <LargeIconBlock
+                iconName={"Database"}
+                header={"CodeIgniter"}
+                text={"A lightweight open-source PHP framework that uses the Model-View-Controller (MVC) architecture. Designed for building web applications with minimal setup and configuration, it is a fast and flexible framework."}
+                subtext="A lightweight open-source PHP framework that uses the Model-View-Controller (MVC) architecture. Designed for building web applications with minimal setup and configuration, it is a fast and flexible framework."
+            />
+        </div>
+    </div>
+</section>
+
 
 
            {/* Additional Sections */}
