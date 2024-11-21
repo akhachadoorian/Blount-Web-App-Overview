@@ -125,3 +125,93 @@ TECH STACK PAGE
         background-color: var(--mediumBlue);
     }
 }
+/*
+============================================================
+DOCUMENTATION PAGE
+============================================================
+*/
+
+.code-documentation {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    color: var(--darkBlue);
+}
+
+/* Title Styling */
+.content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--darkBlue);
+    margin: 0;
+}
+
+.subtitle h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--mediumBlue);
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* Code Section Styling */
+#typescript-comments-section,
+#javascript-comments-section,
+#css-comments-section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.code-block-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 10px;
+}
+
+.code-block {
+    background-color: #f5f9fc;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+    color: var(--darkBlue);
+    white-space: pre;
+    overflow-x: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.explanatory-text {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: var(--darkBlue);
+    line-height: 1.6;
+    max-width: 1200px;
+}
+
+/* Sub-Subtitle Styling */
+.sub-subtitle h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: var(--mediumBlue);
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    letter-spacing: 0.5px; 
+    font-family: "Georgia", serif; 
+}
+
+/* Horizontal Line */
+.section-divider {
+    border: none;
+    height: 2px;
+    background-color: var(--mediumBlue);
+    margin: 40px 0;
+}
+/* CSS Comments Section */
+#css-comments-section {
+    margin-bottom: 60px; 
+}
