@@ -10,8 +10,8 @@ function SmallIconBlock({
   var IconComponent = PIcons[iconName];
 
   return (
-    <div className={`small-icon-block ${style == "fill" ? "fill" : "outline"}`}>
-      {iconSide == "right" ? (
+    <div className={`small-icon-block ${style === "fill" ? "fill" : "outline"}`}>
+      {iconSide === "right" ? (
         <>
           <h6>{text}</h6>
           <IconComponent size={40} />

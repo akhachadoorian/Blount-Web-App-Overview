@@ -1,7 +1,7 @@
 import { CodeSimple, PaintBrush } from "@phosphor-icons/react";
 import React from "react";
 
-function Footer({}) {
+function Footer() {
     return (
         <footer>
             <div className="name">
