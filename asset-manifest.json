@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/Blount-Web-App-Overview/static/css/main.c94c56a3.css",
-    "main.js": "/Blount-Web-App-Overview/static/js/main.b4f6c07d.js",
+    "main.css": "/Blount-Web-App-Overview/static/css/main.87ce51d1.css",
+    "main.js": "/Blount-Web-App-Overview/static/js/main.fb5bb253.js",
     "static/js/453.ed3810f9.chunk.js": "/Blount-Web-App-Overview/static/js/453.ed3810f9.chunk.js",
+    "static/media/PawtasticProfilesDesign.svg": "/Blount-Web-App-Overview/static/media/PawtasticProfilesDesign.0ce2f4fab332ead37f2e4f1a06bc5fa9.svg",
+    "static/media/FunGamesDesign.svg": "/Blount-Web-App-Overview/static/media/FunGamesDesign.341b962ba9dadf0039be98393c670e30.svg",
+    "static/media/DashboardSiteMap.svg": "/Blount-Web-App-Overview/static/media/DashboardSiteMap.956630d19f19dbf1153f8a305e0d85f7.svg",
+    "static/media/NewsPostsLogos.svg": "/Blount-Web-App-Overview/static/media/NewsPostsLogos.df07b47544a248cecda43a52046cda85.svg",
     "static/media/BadgeLogo.svg": "/Blount-Web-App-Overview/static/media/BadgeLogo.5fea35b3148e895951b7c034ede14dcc.svg",
+    "static/media/BrandingColors.svg": "/Blount-Web-App-Overview/static/media/BrandingColors.6f2730b78a4654b2ed873fa30d51b0ff.svg",
+    "static/media/UserLoginSiteMap.svg": "/Blount-Web-App-Overview/static/media/UserLoginSiteMap.8fda3bd5a8a811a7ee7b7c8fb97b1067.svg",
     "index.html": "/Blount-Web-App-Overview/index.html",
-    "main.c94c56a3.css.map": "/Blount-Web-App-Overview/static/css/main.c94c56a3.css.map",
-    "main.b4f6c07d.js.map": "/Blount-Web-App-Overview/static/js/main.b4f6c07d.js.map",
+    "main.87ce51d1.css.map": "/Blount-Web-App-Overview/static/css/main.87ce51d1.css.map",
+    "main.fb5bb253.js.map": "/Blount-Web-App-Overview/static/js/main.fb5bb253.js.map",
     "453.ed3810f9.chunk.js.map": "/Blount-Web-App-Overview/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c94c56a3.css",
-    "static/js/main.b4f6c07d.js"
+    "static/css/main.87ce51d1.css",
+    "static/js/main.fb5bb253.js"
   ]
 }
