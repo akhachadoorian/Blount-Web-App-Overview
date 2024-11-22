@@ -71,7 +71,7 @@ PROBLEMS AND SOLUTIONS PAGE
     background-color: var(--lightBlue);
  
  
-    h1 {
+    h1, h2 {
         color: var(--offWhite);
     }
  
